@@ -1,0 +1,11 @@
+## Starter pipeline for CI lab
+
+name: build-webapp
+
+## Trigger(s)
+
+
+## Default Agent
+
+
+## Stage, Job and steps
