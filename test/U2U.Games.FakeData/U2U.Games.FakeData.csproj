@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <nullable>enable</nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\U2U.Games.Core\U2U.Games.Core.csproj" />
+    <ProjectReference Include="..\..\src\U2U.Games.Infra\U2U.Games.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

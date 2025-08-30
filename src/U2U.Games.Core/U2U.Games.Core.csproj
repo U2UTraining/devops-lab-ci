@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <nullable>enable</nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="U2U.AspNetCore.CleanArchitecture" />
+    <PackageReference Include="U2U.EntityFrameworkCore.Abstractions" />
+    <PackageReference Include="U2U.ValueObjectComparers" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\U2U.Currencies.Core\U2U.Currencies.Core.csproj" />
+  </ItemGroup>
+
+</Project>
